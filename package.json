@@ -1,0 +1,95 @@
+{
+  "name": "magwitch",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "@sentry/react": "^7.98.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/highcharts": "^7.0.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.48",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@types/react-input-mask": "^3.0.2",
+    "@types/react-places-autocomplete": "^7.2.14",
+    "antd": "^5.8.6",
+    "axios": "^1.6.2",
+    "filesize": "^10.1.0",
+    "highcharts": "^11.2.0",
+    "js-cookie": "^3.0.5",
+    "moment": "^2.29.4",
+    "node-ssh": "^13.2.0",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^4.0.12",
+    "react-favicon": "^2.0.3",
+    "react-input-mask": "^2.0.4",
+    "react-places-autocomplete": "^7.3.0",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.8",
+    "recharts": "^2.10.1",
+    "sass": "^1.66.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.2.0"
+  },
+  "scripts": {
+    "start": "sudo PORT=443 HTTPS=true react-scripts start",
+    "start_http": "react-scripts start",
+    "build": "react-scripts build",
+    "build:prod": "dotenv -e .env.prod react-scripts build",
+    "build:develop": "dotenv -e .env.develop react-scripts build",
+    "build:staging": "dotenv -e .env.staging react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "@types/js-cookie": "^3.0.6",
+    "@types/react-beautiful-dnd": "^13.1.8",
+    "@types/react-places-autocomplete": "^7.2.14",
+    "cypress": "^13.15.2",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-real-events": "^1.15.0",
+    "dotenv-cli": "^7.4.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.34.2",
+    "globals": "^15.4.0",
+    "prettier": "^3.3.2",
+    "shipit-cli": "^5.3.0",
+    "shipit-deploy": "^5.3.0",
+    "typescript-eslint": "^7.13.0"
+  },
+  "engines": {
+    "node": ">=v20.9.0",
+    "npm": ">=10.1.0"
+  }
+}
